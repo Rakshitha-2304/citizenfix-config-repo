@@ -1,0 +1,8 @@
+logging:
+  level:
+    org.springframework.cloud.gateway: INFO
+
+app:
+  jwt:
+    secret: ${JWT_SECRET}
+    expiration: 86400000
